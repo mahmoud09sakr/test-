@@ -7,6 +7,7 @@ export const bootstrap = (app, express) => {
     app.use(express.json())
     databaseConnection()
     console.log("im in auth branch ");
+    console.log("test the conncetion");
 
 
 
