@@ -1,6 +1,7 @@
 import { blogModel } from "../../database/models/blog.model.js";
 
 
+console.log("test");
 
 export const addBlog = async (req, res) => {
     let { title, desc, userId } = req.body
