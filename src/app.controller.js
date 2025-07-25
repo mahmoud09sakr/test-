@@ -10,11 +10,11 @@ export const bootstrap = (app, express) => {
     console.log("test the conncetion");
 
     console.log("im in mater branch");
+    console.log("im in testt");
     console.log("im in mater branch");
     console.log("im in mater branch");
     console.log("im in mater branch");
     console.log("im in mater branch");
-
 
     app.use('/api/v1/users', userRouter)
     app.use("/api/v1/blogs", blogRoutes)
