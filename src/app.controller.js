@@ -7,6 +7,8 @@ export const bootstrap = (app, express) => {
     app.use(express.json())
     databaseConnection()
     console.log("im in auth branch ");
+    console.log("im in auth branch ");
+
 
 
     app.use('/api/v1/users', userRouter)
